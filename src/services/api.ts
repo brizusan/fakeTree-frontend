@@ -50,7 +50,7 @@ export const getUserProfile = async (nickname: User["nickname"]) => {
 
 export const searchByNickname = async (nickname: User["nickname"]) => {
   try {
-    const { data } = await api.post(`/search/`,{nickname});
+    const { data } = await api.post(`/search`,{nickname});
     return data;
   } catch (error) {
     if (isAxiosError(error) && error.response) {
