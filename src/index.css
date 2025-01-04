@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cta-form {
+  @apply bg-cyan-700 hover:bg-cyan-800 transition-colors p-3  w-full uppercase text-white rounded-lg font-bold cursor-pointer;
+}
