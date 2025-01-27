@@ -35,7 +35,7 @@ export default function NicknameView() {
           <img
             src={user.avatar}
             alt={`imagen de ${user.nickname}`}
-            className="mx-auto rounded-full w-32 h-32"
+            className="mx-auto rounded-full w-32 h-32 object-cover"
           />
         )}
         <p className="text-center text-lg">{user.description}</p>
